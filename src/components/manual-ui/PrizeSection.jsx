@@ -106,7 +106,7 @@ const PrizeSection = () => {
           returnDuration={1.0}
         />
       </div>
-      <div className="relative z-10 flex flex-col gap-8 lg:gap-12 lg:flex-row justify-evenly py-10 bg-transparent w-full">
+      <div className="relative z-10 flex flex-col gap-8 lg:gap-12 lg:flex-row justify-evenly items-center py-10 bg-transparent w-full">
         {prizes.map((prize) => (
           <PixelCard
             key={prize.place}
